@@ -20,7 +20,7 @@ setuptools.setup(
         "License :: CC0 1.0 Universal",
         "Operating System :: OS Independent",
     ],
-    package_dir={"delta_asc_reader": "src"},
-    packages=['src'],
+    #package_dir={"delta_asc_reader": "src"},
+    packages=setuptools.find_packages(),
     python_requires=">=3.6",
 )
