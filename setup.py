@@ -21,7 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     #package_dir={"delta_asc_reader": "src"},
-    packages=setuptools.find_packages(),
+    packages=['delta_asc_reader'],
     python_requires=">=3.6",
-    install_requreis = ['nmrglue'],
+    install_requires = ['nmrglue>=0.8'],
 )
