@@ -357,7 +357,7 @@ class InvalidFileFormatException(Exception):
 if __name__ == '__main__':
     import sys
 
-    read asc file and convert to nmrpipe format
+    #read asc file and convert to nmrpipe format
     dic, data = read(sys.argv[1])
     
 
