@@ -20,7 +20,7 @@ setuptools.setup(
         "License :: CC0 1.0 Universal",
         "Operating System :: OS Independent",
     ],
-    #package_dir={"delta_asc_reader": "src"},
+    package_dir={"delta_asc_reader": "delta_asc_reader"},
     packages=['delta_asc_reader'],
     python_requires=">=3.6",
     install_requires = ['nmrglue>=0.8'],
