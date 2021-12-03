@@ -21,6 +21,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"delta_asc_reader": "src"},
-    packages=setuptools.find_packages(where="src"),
+    packages=['src'],
     python_requires=">=3.6",
 )
