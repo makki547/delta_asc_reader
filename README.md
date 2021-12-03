@@ -6,7 +6,7 @@ JEOL RESONANCE社のNMR測定・解析ソフト「Delta」で作成できる「G
 
 * numpy
 * scipy
-* nmrglue
+* nmrglue>=0.8
 
 Python 3.6以上で動作することを確認しています。現在、2Dまでのデータのみサポートしています。
 
