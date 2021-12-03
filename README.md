@@ -1,4 +1,4 @@
-# Delta NMR asc reader
+# Delta asc reader
 
 JEOL RESONANCE社のNMR測定・解析ソフト「Delta」で作成できる「Generic ASCII」ファイル(*.asc + *.hdr)をnmrglueに読み込むためのライブラリです。
 
